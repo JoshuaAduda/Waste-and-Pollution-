@@ -1,0 +1,86 @@
+body {
+    background: linear-gradient(135deg, #c8e6c9, #a5d6a7);
+    font-family: "Lobster", sans-serif;
+    margin: 0;
+}
+
+/* Logo */
+.logo {
+    font-weight: bold;
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+/* Navbar */
+nav {
+    background: linear-gradient(90deg, lightgreen, #1b5e20);
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin-left: 25px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #c8e6c9;
+    transform: scale(1.1);
+}
+
+/* Hero Section */
+#hero {
+    background: linear-gradient(135deg, #66bb6a, #43a047);
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+#hero h1 {
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 18px;
+    opacity: 0.9;
+}
+
+/* Button */
+#hero button {
+    margin-top: 20px;
+    padding: 12px 25px;
+    border: none;
+    background: #1b5e20;
+    color: white;
+    cursor: pointer;
+    border-radius: 25px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 5px 15px blue;
+}
+
+#hero button:hover {
+    background: green;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px darkblue;
+}
